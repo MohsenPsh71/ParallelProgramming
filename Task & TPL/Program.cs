@@ -8,6 +8,15 @@ static double Methode1(int count)
     }
     return a;
 }
+static double Methode2(object count)
+{
+    double a = 0;
+    for (int i = 0; i < (int)count; i++)
+    {
+        a += Math.Pow(0.2, 0.5);
+    }
+    return a;
+}
 
 Console.WriteLine("Start");
 
@@ -31,5 +40,9 @@ Console.WriteLine(task2.Result);
 Task<double> task3 = new Task<double>(() => Methode1(100));
 task3.Start();
 Console.WriteLine(task3.Result);
+
+//use task with object method input
+Task<double> task4 = Task.Factory.StartNew(Methode2,100);
+Console.WriteLine(task4.Result);
 
 Console.WriteLine("End");
