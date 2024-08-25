@@ -3,21 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35208.52
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task & TPL", "Task & TPL\Task & TPL.csproj", "{9DE371B0-4424-4DA8-AAC1-4AA078D51C8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task & TPL", "Task & TPL\Task & TPL.csproj", "{9DE371B0-4424-4DA8-AAC1-4AA078D51C8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CancellationTokenSource", "CancellationTokenSource\CancellationTokenSource.csproj", "{2209E8CD-1851-4F07-8981-328038371571}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CancellationTokenSource", "CancellationTokenSource\CancellationTokenSource.csproj", "{2209E8CD-1851-4F07-8981-328038371571}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task.Wait", "Task.Wait\Task.Wait.csproj", "{0FFD5973-64C3-461A-B383-459C2730030F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task.Wait", "Task.Wait\Task.Wait.csproj", "{0FFD5973-64C3-461A-B383-459C2730030F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AggregateException", "AggregateException\AggregateException.csproj", "{25F4546F-7D4B-4917-BAC4-6E97EF361883}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AggregateException", "AggregateException\AggregateException.csproj", "{25F4546F-7D4B-4917-BAC4-6E97EF361883}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lock", "Lock\Lock.csproj", "{116A0974-368F-412A-A669-19845B00ADB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lock", "Lock\Lock.csproj", "{116A0974-368F-412A-A669-19845B00ADB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mutex", "Mutex\Mutex.csproj", "{849A8A95-1F35-48F5-8608-B9B5BC54D1CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mutex", "Mutex\Mutex.csproj", "{849A8A95-1F35-48F5-8608-B9B5BC54D1CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Concurrent Dictionary", "Concurrent Dictionary\Concurrent Dictionary.csproj", "{C193568E-50ED-4BAE-8ECF-8EA8D92EA94D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Concurrent Dictionary", "Concurrent Dictionary\Concurrent Dictionary.csproj", "{C193568E-50ED-4BAE-8ECF-8EA8D92EA94D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Concurrent Queue & Stack", "Concurrent Queue\Concurrent Queue & Stack.csproj", "{3172D7DF-377A-46C7-B242-B7712725C45B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Concurrent Queue & Stack", "Concurrent Queue\Concurrent Queue & Stack.csproj", "{3172D7DF-377A-46C7-B242-B7712725C45B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrentBag", "Bag\ConcurrentBag.csproj", "{29A85C9F-741F-47F0-B8BC-8237652DA133}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{3172D7DF-377A-46C7-B242-B7712725C45B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3172D7DF-377A-46C7-B242-B7712725C45B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3172D7DF-377A-46C7-B242-B7712725C45B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29A85C9F-741F-47F0-B8BC-8237652DA133}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29A85C9F-741F-47F0-B8BC-8237652DA133}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29A85C9F-741F-47F0-B8BC-8237652DA133}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29A85C9F-741F-47F0-B8BC-8237652DA133}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
