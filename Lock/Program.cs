@@ -29,13 +29,20 @@ Console.WriteLine(Bank_Account.Balance);
 class BankAccount
 {
     public int Balance { get; set; }
+    object _lock = new object();
     public void Deposite(int amount)
     {
-        Balance += amount;
+        lock (_lock)
+        {
+            Balance += amount;
+        }
     }
     public void Withtow(int amount)
     {
-        Balance -= amount;
+        lock (_lock)
+        {
+            Balance -= amount;
+        }
     }
 
 }
