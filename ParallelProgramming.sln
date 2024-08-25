@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35208.52
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task & TPL", "Task & TPL\Task & TPL.csproj", "{9DE371B0-4424-4DA8-AAC1-4AA078D51C8E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CancellationTokenSource", "CancellationTokenSource\CancellationTokenSource.csproj", "{2209E8CD-1851-4F07-8981-328038371571}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{9DE371B0-4424-4DA8-AAC1-4AA078D51C8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DE371B0-4424-4DA8-AAC1-4AA078D51C8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DE371B0-4424-4DA8-AAC1-4AA078D51C8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2209E8CD-1851-4F07-8981-328038371571}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2209E8CD-1851-4F07-8981-328038371571}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2209E8CD-1851-4F07-8981-328038371571}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2209E8CD-1851-4F07-8981-328038371571}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
