@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CancellationTokenSource", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task.Wait", "Task.Wait\Task.Wait.csproj", "{0FFD5973-64C3-461A-B383-459C2730030F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AggregateException", "AggregateException\AggregateException.csproj", "{25F4546F-7D4B-4917-BAC4-6E97EF361883}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{0FFD5973-64C3-461A-B383-459C2730030F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FFD5973-64C3-461A-B383-459C2730030F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FFD5973-64C3-461A-B383-459C2730030F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25F4546F-7D4B-4917-BAC4-6E97EF361883}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25F4546F-7D4B-4917-BAC4-6E97EF361883}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25F4546F-7D4B-4917-BAC4-6E97EF361883}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25F4546F-7D4B-4917-BAC4-6E97EF361883}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
