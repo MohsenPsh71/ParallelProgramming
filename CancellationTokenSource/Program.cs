@@ -24,6 +24,8 @@ static void Method2()
 {
     //w8 for signal to cancel
     var cancellation_Token_Source = new CancellationTokenSource();
+    //cancel after specific time
+    //cancellation_Token_Source.CancelAfter(3000);
     var token = cancellation_Token_Source.Token;
 
     token.Register(() =>
