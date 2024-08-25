@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task & TPL", "Task & TPL\Ta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CancellationTokenSource", "CancellationTokenSource\CancellationTokenSource.csproj", "{2209E8CD-1851-4F07-8981-328038371571}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task.Wait", "Task.Wait\Task.Wait.csproj", "{0FFD5973-64C3-461A-B383-459C2730030F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{2209E8CD-1851-4F07-8981-328038371571}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2209E8CD-1851-4F07-8981-328038371571}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2209E8CD-1851-4F07-8981-328038371571}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FFD5973-64C3-461A-B383-459C2730030F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FFD5973-64C3-461A-B383-459C2730030F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FFD5973-64C3-461A-B383-459C2730030F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FFD5973-64C3-461A-B383-459C2730030F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
