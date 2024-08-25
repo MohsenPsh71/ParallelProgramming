@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mutex", "Mutex\Mutex.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Concurrent Dictionary", "Concurrent Dictionary\Concurrent Dictionary.csproj", "{C193568E-50ED-4BAE-8ECF-8EA8D92EA94D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Concurrent Queue & Stack", "Concurrent Queue\Concurrent Queue & Stack.csproj", "{3172D7DF-377A-46C7-B242-B7712725C45B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{C193568E-50ED-4BAE-8ECF-8EA8D92EA94D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C193568E-50ED-4BAE-8ECF-8EA8D92EA94D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C193568E-50ED-4BAE-8ECF-8EA8D92EA94D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3172D7DF-377A-46C7-B242-B7712725C45B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3172D7DF-377A-46C7-B242-B7712725C45B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3172D7DF-377A-46C7-B242-B7712725C45B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3172D7DF-377A-46C7-B242-B7712725C45B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
