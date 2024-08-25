@@ -7,9 +7,17 @@ static void methode()
         throw new DivideByZeroException();
         //throw new AccessViolationException();
     });
+    var t2 = Task.Factory.StartNew(() =>
+    {
+        throw new AccessViolationException();
+    });
+    var t3 = Task.Factory.StartNew(() =>
+    {
+        throw new AbandonedMutexException();
+    });
     try
     {
-        t.Wait();
+       Task.WaitAll(t,t2,t3);
     }
     catch (AggregateException Aggregate)
     {
