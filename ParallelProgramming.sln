@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parent-Child Task", "Parent
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barrier", "Barrier\Barrier.csproj", "{A8BB1745-D6F3-4CE8-9E06-79E4F50B686C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountdownEvent", "CountdownEvent\CountdownEvent.csproj", "{5DB2DA41-F064-41E7-9610-37E8027E9657}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{A8BB1745-D6F3-4CE8-9E06-79E4F50B686C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8BB1745-D6F3-4CE8-9E06-79E4F50B686C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8BB1745-D6F3-4CE8-9E06-79E4F50B686C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DB2DA41-F064-41E7-9610-37E8027E9657}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DB2DA41-F064-41E7-9610-37E8027E9657}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DB2DA41-F064-41E7-9610-37E8027E9657}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DB2DA41-F064-41E7-9610-37E8027E9657}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
