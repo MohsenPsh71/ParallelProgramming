@@ -30,7 +30,7 @@ static void Method()
 }
 static void Method2()
 {
-    //ContinueWith
+    //ContinueWhenAll
     var task = Task.Factory.StartNew(() => "Task 1");
     var task2 = Task.Factory.StartNew(() => "Task 2");
     var task3 = Task.Factory.ContinueWhenAll([task, task2], tasks =>
@@ -56,5 +56,33 @@ static void Method2()
         });
     }
 }
+static void Method3()
+{
+    //ContinueWhenAny
+    var task = Task.Factory.StartNew(() => "Task 1");
+    var task2 = Task.Factory.StartNew(() => "Task 2");
+    var task3 = Task.Factory.ContinueWhenAny([task, task2], tasks =>
+    {
+        Console.WriteLine("Tasks completed");
+
+        Console.WriteLine($"\t{tasks.Status}");
+        Console.WriteLine($"\t{tasks.Result}");
+
+    });
+    try
+    {
+        task3.Wait();
+    }
+    catch (AggregateException ae)
+    {
+
+        ae.Handle(e =>
+        {
+            Console.WriteLine("Excrption" + e);
+            return true;
+        });
+    }
+}
 //Method();
-Method2();
+//Method2();
+Method3();
