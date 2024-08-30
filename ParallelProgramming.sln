@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalStorage", "LocalStorag
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parallel LINQ", "Parallel LINQ\Parallel LINQ.csproj", "{0D87F240-5870-4DB4-ABFD-D8073322CC23}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merge Options", "Merge Options\Merge Options.csproj", "{7ADC13EB-E88D-41CA-BC27-6C86E64739BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{0D87F240-5870-4DB4-ABFD-D8073322CC23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D87F240-5870-4DB4-ABFD-D8073322CC23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D87F240-5870-4DB4-ABFD-D8073322CC23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ADC13EB-E88D-41CA-BC27-6C86E64739BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ADC13EB-E88D-41CA-BC27-6C86E64739BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ADC13EB-E88D-41CA-BC27-6C86E64739BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ADC13EB-E88D-41CA-BC27-6C86E64739BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
