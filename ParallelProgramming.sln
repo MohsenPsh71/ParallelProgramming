@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cancelation Parallel Loops"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalStorage", "LocalStorage\LocalStorage.csproj", "{D8FF366E-2FF2-498D-94A6-676F0BEA1A8A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parallel LINQ", "Parallel LINQ\Parallel LINQ.csproj", "{0D87F240-5870-4DB4-ABFD-D8073322CC23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{D8FF366E-2FF2-498D-94A6-676F0BEA1A8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8FF366E-2FF2-498D-94A6-676F0BEA1A8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8FF366E-2FF2-498D-94A6-676F0BEA1A8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D87F240-5870-4DB4-ABFD-D8073322CC23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D87F240-5870-4DB4-ABFD-D8073322CC23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D87F240-5870-4DB4-ABFD-D8073322CC23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D87F240-5870-4DB4-ABFD-D8073322CC23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
