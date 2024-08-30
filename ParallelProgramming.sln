@@ -19,19 +19,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Concurrent Dictionary", "Co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Concurrent Queue & Stack", "Concurrent Queue\Concurrent Queue & Stack.csproj", "{3172D7DF-377A-46C7-B242-B7712725C45B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrentBag", "Bag\ConcurrentBag.csproj", "{29A85C9F-741F-47F0-B8BC-8237652DA133}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConcurrentBag", "Bag\ConcurrentBag.csproj", "{29A85C9F-741F-47F0-B8BC-8237652DA133}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContinueWith", "ContinueWith\ContinueWith.csproj", "{5B4CF5C9-94AB-49EA-A826-1AFE573C7F88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContinueWith", "ContinueWith\ContinueWith.csproj", "{5B4CF5C9-94AB-49EA-A826-1AFE573C7F88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parent-Child Task", "Parent-Child Task\Parent-Child Task.csproj", "{1504A234-0C98-4E33-AD44-4B557D09B21D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Parent-Child Task", "Parent-Child Task\Parent-Child Task.csproj", "{1504A234-0C98-4E33-AD44-4B557D09B21D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barrier", "Barrier\Barrier.csproj", "{A8BB1745-D6F3-4CE8-9E06-79E4F50B686C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Barrier", "Barrier\Barrier.csproj", "{A8BB1745-D6F3-4CE8-9E06-79E4F50B686C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountdownEvent", "CountdownEvent\CountdownEvent.csproj", "{5DB2DA41-F064-41E7-9610-37E8027E9657}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountdownEvent", "CountdownEvent\CountdownEvent.csproj", "{5DB2DA41-F064-41E7-9610-37E8027E9657}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemaphoreSlim", "SemaphoreSlim\SemaphoreSlim.csproj", "{2DAAA1B3-4778-4713-89B2-B32A37F28C50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SemaphoreSlim", "SemaphoreSlim\SemaphoreSlim.csproj", "{2DAAA1B3-4778-4713-89B2-B32A37F28C50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parallel", "Parallel\Parallel.csproj", "{6B4D6A6C-700F-4573-BB75-C7EAF217856F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Parallel", "Parallel\Parallel.csproj", "{6B4D6A6C-700F-4573-BB75-C7EAF217856F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cancelation Parallel Loops", "cancelation Parallel Loops\cancelation Parallel Loops.csproj", "{A4B0E27F-A009-4578-AFE4-E7637F0C4351}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{6B4D6A6C-700F-4573-BB75-C7EAF217856F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B4D6A6C-700F-4573-BB75-C7EAF217856F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B4D6A6C-700F-4573-BB75-C7EAF217856F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4B0E27F-A009-4578-AFE4-E7637F0C4351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4B0E27F-A009-4578-AFE4-E7637F0C4351}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4B0E27F-A009-4578-AFE4-E7637F0C4351}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4B0E27F-A009-4578-AFE4-E7637F0C4351}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
