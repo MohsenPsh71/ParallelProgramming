@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parallel LINQ", "Parallel L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merge Options", "Merge Options\Merge Options.csproj", "{7ADC13EB-E88D-41CA-BC27-6C86E64739BA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Partitioner", "Partitioner\Partitioner.csproj", "{C970B738-19BE-4E90-84C9-B66A07E8B1B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{7ADC13EB-E88D-41CA-BC27-6C86E64739BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7ADC13EB-E88D-41CA-BC27-6C86E64739BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7ADC13EB-E88D-41CA-BC27-6C86E64739BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C970B738-19BE-4E90-84C9-B66A07E8B1B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C970B738-19BE-4E90-84C9-B66A07E8B1B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C970B738-19BE-4E90-84C9-B66A07E8B1B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C970B738-19BE-4E90-84C9-B66A07E8B1B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
